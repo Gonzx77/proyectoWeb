@@ -29,11 +29,11 @@ body{
     justify-content: left;
 }
 #food{
-    font-family: "Poppins", sans-serif;
     margin-left: 3vw;
     color: var(--color-1);
     font-size: 40px;
 }
+
 
 
 .menuGrid{
@@ -57,6 +57,49 @@ body{
     color: var(--color-w);
 }
 
+
+
+.cont{
+    border: 1px solid white;
+    width: 100vw;
+    height: calc(100% - 80px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contElement{
+    border: 1px solid green;
+}
+#center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contInfo{
+    border: 1px solid blue;
+}
+#contInfoTitle{
+    font-size: 130px;
+    color: var(--color-1);
+}
+#contInfoText{
+    font-size: 50px;
+    color: var(--color-w);
+}
+.contInfoButtom{
+    background-color: var(--color-1);
+    display: inline-block;
+    margin-top: 20px;
+}
+#contInfoButtom{
+    font-size: 30px;
+    padding: 10px;
+    color: var(--color-w);
+}
+#contImg{
+    width: 50%;
+}
 
 
 
