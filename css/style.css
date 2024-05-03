@@ -35,6 +35,20 @@ body{
 }
 
 
+.menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#menuMovil{
+    filter: invert();
+    width: 30px;
+    position: absolute;
+    margin-right: 3vw;
+    display: none;
+}
 
 .menuGrid{
     width: 100%;
@@ -83,8 +97,22 @@ body{
     font-size: 130px;
     color: var(--color-1);
 }
+#contInfoTitle2{
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: var(--color-1);
+}
 #contInfoText{
     font-size: 50px;
+    color: var(--color-w);
+}
+#contInfoText2{
+    margin-bottom: 10px;
+    font-size: 70px;
+    color: var(--color-w);
+}
+#contInfoDescript2{
+    font-size: 30px;
     color: var(--color-w);
 }
 .contInfoButtom{
@@ -98,7 +126,7 @@ body{
     color: var(--color-w);
 }
 #contImg{
-    width: 50%;
+    width: 70%;
 }
 
 
@@ -119,10 +147,22 @@ body{
     #contInfoTitle{
         font-size: 60px;
     }
+    #contInfoTitle2{
+        font-size: 20px;
+    }
     #contInfoText{
         font-size: 30px;
     }
+    #contInfoText2{
+        font-size: 40px;
+    }
+    #contInfoDescript2{
+        font-size: 20px;
+    }
     #contInfoButtom{
         font-size: 16px;
+    }
+    #menuMovil{
+        display: block;
     }
 }
