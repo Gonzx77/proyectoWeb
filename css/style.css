@@ -1,1 +1,17 @@
 @import url(../css/varaibles.css);
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../storage/fonts/popins/Poppins-Bold.ttf);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
