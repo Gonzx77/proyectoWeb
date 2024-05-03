@@ -1,11 +1,9 @@
 @import url(../css/varaibles.css);
 
-@font-face {
-    font-family: "Poppins";
-    src: url(../storage/fonts/popins/Poppins-Bold.ttf);
-}
+
 
 body{
+    background-color: var(--color-2);
     width: 100vw;
     height: 100vh;
 }
@@ -14,4 +12,57 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    top: 0;
+    width: 100%;
+    height: 80px;
+}
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#food{
+    font-family: "Poppins", sans-serif;
+    margin-left: 3vw;
+    color: var(--color-1);
+    font-size: 40px;
+}
+
+
+.menuGrid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.menuElement{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuElement:hover{
+    border: 1px solid var(--color-5);
+}
+
+.menuText{
+    color: var(--color-w);
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .menuGrid{
+        display: none;
+    }
 }
